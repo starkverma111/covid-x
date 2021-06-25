@@ -1,0 +1,132 @@
+
+ body{
+margin:0%;
+padding:0%;
+overflow-x:hidden;
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+font-family: 'Comfortaa', cursive;
+}
+
+
+	 .nav-item{
+		 font-weight:600;
+		 font-size: 15px;
+	 }
+
+
+li { color: #666;display:inline-block; margin:0;text-transform:uppercase; }
+li:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px pink;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+li:hover:after { transform: scaleX(1); }
+
+#sf{margin-right:8.5%;
+padding-left:4%;
+
+}
+li{padding-left:10px;
+padding-right:10px;
+
+}
+
+
+
+
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.form-control{
+	
+	padding:12px;
+}
+
+
+
+.row{
+	padding:20px;
+	border-radius: 5px;
+
+}
+.col-md-3{
+	background-image: linear-gradient( 109.6deg,  rgba(102,203,149,1) 11.2%, rgba(39,210,175,1) 98.7% );
+	border-radius:50px;
+	text-align: center;
+	margin:4px;
+	
+
+
+	
+}
+
+
+
+
+	 
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-image: linear-gradient( 109.6deg,  rgba(102,203,149,1) 11.2%, rgba(39,210,175,1) 98.7% );
+    color: #ffffff;
+    text-align: center;
+	border-radius:40px;
+	
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+   background-image: radial-gradient( circle 788px at 0.7% 3.4%,  rgba(164,231,192,1) 0%, rgba(255,255,255,1) 90% );
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 4px solid #009879;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.fcontainer {
+	
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
